@@ -1,4 +1,6 @@
 hoverMenus
 ==========
 
-Simple JQuery based drop down menu plugin
+This is a simple JQuery based menu plugin. Feedback is heavily encouraged, because I'm fairly knew to web development. 
+
+Thanks!
