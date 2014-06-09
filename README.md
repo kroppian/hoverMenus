@@ -14,47 +14,46 @@ Usage
 
 
 ```  
-   <div>
-        <div class="cell" id="left-bookend"> <a class="icon-link">Mail</a>
-            <ul class="dropdown-menu">
-                <li class="dropdown-menu-item">Mom</li>
+     <div>
+         <div class="drop-point"> <a class="icon-link">Mail</a>
+             <ul class="dropdown-menu">
+                 <li class="dropdown-menu-item">Mom</li>
                  <li class="dropdown-menu-item">Dad</li>
-                <li class="dropdown-menu-item">John Ross</li>
-            </ul>
-        </div>
-        <div class="cell middle-cell"> <a class="icon-link">Tools</a>
-            <ul class="dropdown-menu">
-                <li class="dropdown-menu-item">Hammer</li>
-                <li class="dropdown-menu-item">Screw Driver</li>
-                <li class="dropdown-menu-item">John Ross</li>
-            </ul>
-        </div>
-        <div class="cell middle-cell"> <a class="icon-link">Apples</a>
-            <ul class="dropdown-menu">
-                <li class="dropdown-menu-item">Gold Delicious</li>
-                <li class="dropdown-menu-item">Red Delicious</li>
-            </ul>
-        </div>
-        <div class="cell middle-cell"> <a class="icon-link">Fish</a>
-            <ul class="dropdown-menu">
-                <li class="dropdown-menu-item">Halibut</li>
-                <li class="dropdown-menu-item">Trout</li>
-            </ul>
-        </div>
-        <div class="cell" id="right-bookend"> <a class="icon-link">Kittens</a>
-            <ul class="dropdown-menu">
-                <li class="dropdown-menu-item">Fuzzy</li>
-                <li class="dropdown-menu-item">Kittehs</li>
-            </ul>
-        </div>
-    </div>
-
+                 <li class="dropdown-menu-item">John Ross</li>
+             </ul>
+         </div>
+         <div class="drop-point"> <a class="icon-link">Tools</a>
+             <ul class="dropdown-menu">
+                 <li class="dropdown-menu-item">Hammer</li>
+                 <li class="dropdown-menu-item">Screw Driver</li>
+                 <li class="dropdown-menu-item">John Ross</li>
+             </ul>
+         </div>
+         <div class="drop-point"> <a class="icon-link">Apples</a>
+             <ul class="dropdown-menu">
+                 <li class="dropdown-menu-item">Gold Delicious</li>
+                 <li class="dropdown-menu-item">Red Delicious</li>
+             </ul>
+         </div>
+         <div class="drop-point"> <a class="icon-link">Fish</a>
+             <ul class="dropdown-menu">
+                 <li class="dropdown-menu-item">Halibut</li>
+                 <li class="dropdown-menu-item">Trout</li>
+             </ul>
+         </div>
+         <div class="drop-point"> <a class="icon-link">Kittens</a>
+             <ul class="dropdown-menu">
+                 <li class="dropdown-menu-item">Fuzzy</li>
+                 <li class="dropdown-menu-item">Kittehs</li>
+             </ul>
+         </div>
+     </div>
 
 
 
 ```
 
-
+Note: the drop-point class must be 
 
 
 
