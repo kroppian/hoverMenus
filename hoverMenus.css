@@ -17,9 +17,11 @@
   text-align: left;
   background-color:transparent;
   min-width: 75px;
+  cursor:pointer;
 
   /* Typography */
   white-space:nowrap;
+
 
 }
 
