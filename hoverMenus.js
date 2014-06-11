@@ -2,6 +2,9 @@
 
 $(document).ready(function(){
 
+  $("ul :first-child").removeClass("dropdown-menu-item");
+  $("ul :first-child").addClass("dropdown-menu-item-top");
+
   $("ul").hide();
 
   function dropPointMouseIn() {
@@ -14,17 +17,17 @@ $(document).ready(function(){
 
   function listMouseIn() {
       $(this).css("background-color", "#BABABA");
-      $(this).children("ul").show()
+      //$(this).children("ul").show()
   }
 
   function listMouseOut() {
       $(this).css("background-color", "#E3E3E3");
-      $(this).children("ul").hide();
+      //$(this).children("ul").hide();
   }
 
   $(".drop-point").hover(dropPointMouseIn, dropPointMouseOut);
 
-  $(".dropdown-menu-item").hover(listMouseIn, listMouseOut);
+  $(".dropdown-menu-item,.dropdown-menu-item-top").hover(listMouseIn, listMouseOut);
 
 });
 
