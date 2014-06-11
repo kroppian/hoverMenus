@@ -4,6 +4,8 @@
 
   /* Positioning */
   position: absolute;
+  top:50%;
+  left:0; 
 
   /* Box Model */
   padding:0;
@@ -16,14 +18,21 @@
   background-color:transparent;
   min-width: 75px;
 
+  /* Typography */
+  white-space:nowrap;
+
 }
 
 .dropdown-menu-item {
 
+
+  /* Box model*/
   padding-left: 10px;
   padding-right: 10px;
   padding-bottom: 5px;
   padding-top: 5px;
+
+  /* Visual  */
   border-bottom-style: solid;
   border-left-style: solid;
   border-right-style: solid;
@@ -35,14 +44,16 @@
 
 .dropdown-menu-item-top {
 
+  /* Box model*/
   padding-left: 10px;
   padding-right: 10px;
   padding-bottom: 5px;
   padding-top: 5px;
+
+  /* Visual  */
   border-style:solid;
   border-width: .1em;
   border-color: #BABABA;
-
   background-color: #E3E3E3;
 
 }
